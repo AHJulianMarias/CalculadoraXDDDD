@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Calculadora</string>
     <string name="mas">+</string>
+    <string name="coma">,</string>
+    <string name="x">X</string>
+    <string name="c">C</string>
+    <string name="del">DEL</string>
+    <string name="_9">9</string>
+    <string name="_6">6</string>
 </resources>

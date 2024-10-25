@@ -6,71 +6,238 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:layout_editor_absoluteX="52dp"
-    tools:layout_editor_absoluteY="41dp">
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="103dp">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonSuma"
         style="@style/estiloBotonRedondo"
-        android:text="@string/mas"
+        android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/button4"
-        app:layout_constraintHeight_default="wrap"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="@id/button2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
-        app:layout_constraintWidth_percent="0.25" />
-
-    <Button
-        android:id="@+id/button2"
-        style="@style/estiloBotonRedondo"
-        android:text="@string/mas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
+        app:layout_constraintVertical_bias="0.673"
+        app:layout_constraintWidth_percent="0.25" />
+
+
+
+    <Button
+        android:id="@+id/buttonResta"
+        style="@style/estiloBotonRedondo"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@id/buttonEq"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/button3"
+        app:layout_constraintTop_toEndOf="@id/buttonSuma"
         app:layout_constraintWidth_percent="0.25" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonEq"
         style="@style/estiloBotonRedondo"
-        android:text="@string/mas"
+        android:layout_marginStart="308dp"
+        android:text="="
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/button2"
-        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="button22"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
+        app:layout_constraintVertical_bias="1.0"
         app:layout_constraintWidth_percent="0.25" />
+
+
+
+    <Button
+        android:id="@+id/buttonComma"
+        style="@style/estiloBotonRedondo"
+        android:text="@string/coma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/buttonEq"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button0"
+        app:layout_constraintTop_toEndOf="@+id/button3"
+        app:layout_constraintWidth_percent="0.25" />
+
+
+    <Button
+        android:id="@+id/buttonDiv"
+        style="@style/estiloBotonRedondo"
+        android:text="/"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <Button
+        android:id="@+id/buttonDEL"
+        style="@style/estiloBotonRedondo"
+        android:text="@string/del"
+        app:layout_constraintBottom_toTopOf="@id/button7"
+        app:layout_constraintDimensionRatio="1:0.5"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBorrar1Numero"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_percent="0.50" />
+
+
+    <Button
+        android:id="@+id/buttonBorrar1Numero"
+        style="@style/estiloBotonRedondo"
+        android:text="@string/c"
+        app:layout_constraintBottom_toTopOf="@id/button9"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/buttonDiv"
+        app:layout_constraintStart_toEndOf="@id/buttonDEL"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/estiloBotonRedondo"
+        android:text="@string/_9"
+        app:layout_constraintBottom_toTopOf="@id/button6"
+
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/buttonX"
+        app:layout_constraintStart_toEndOf="@id/button8"
+        app:layout_constraintTop_toBottomOf="@id/buttonBorrar1Numero"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/estiloBotonRedondo"
+        android:text="8"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/button9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/button7"
+        app:layout_constraintTop_toBottomOf="@id/buttonDEL"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/estiloBotonRedondo"
+        android:text="7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/estiloBotonRedondo"
+
+        android:text="@string/_6"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/buttonSuma"
+        app:layout_constraintStart_toEndOf="@id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/estiloBotonRedondo"
+        android:text="5"
+        app:layout_constraintBottom_toTopOf="@id/button2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/button4"
+        app:layout_constraintTop_toBottomOf="button8"
+        app:layout_constraintWidth_percent="0.25" />
+
+
+
+
 
     <Button
         android:id="@+id/button4"
         style="@style/estiloBotonRedondo"
-        android:text="@string/mas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_default="wrap"
+        android:text="4"
+        app:layout_constraintBottom_toTopOf="@id/button1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button7"
+        app:layout_constraintVertical_bias="0.673"
         app:layout_constraintWidth_percent="0.25" />
+    <Button
+        android:id="@+id/button3"
+        style="@style/estiloBotonRedondo"
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="412dp"
-        android:layout_height="119dp"
-        android:background="@color/purple"
+        android:text="3"
+        app:layout_constraintBottom_toTopOf="@+id/buttonComma"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/buttonResta"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/button2"
+        app:layout_constraintTop_toBottomOfOf="@id/button6"
+        app:layout_constraintWidth_percent="0.25" />
+    <Button
+        android:id="@+id/button2"
+        style="@style/estiloBotonRedondo"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/button0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintWidth_percent="0.25" />
+    <Button
+        android:id="@+id/button1"
+        style="@style/estiloBotonRedondo"
+        android:text="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.837"
+        app:layout_constraintWidth_percent="0.25" />
+    <Button
+        android:id="@+id/button0"
+        style="@style/estiloBotonRedondo"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_percent="0.50" />
+
+    <Button
+        android:id="@+id/buttonX"
+        style="@style/estiloBotonRedondo"
+        android:text="@string/x"
+        app:layout_constraintBottom_toTopOf="@id/buttonSuma"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@id/button9"
+        app:layout_constraintTop_toBottomOf="@id/buttonDiv"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
