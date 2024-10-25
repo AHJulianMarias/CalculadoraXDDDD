@@ -95,8 +95,8 @@
     <Button
         android:id="@+id/buttonBorrar1Numero"
         style="@style/estiloBotonRedondo"
+        android:layout_marginTop="216dp"
         android:text="@string/c"
-        app:layout_constraintBottom_toTopOf="@id/button9"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toStartOf="@id/buttonDiv"
         app:layout_constraintStart_toEndOf="@id/buttonDEL"
@@ -106,14 +106,12 @@
     <Button
         android:id="@+id/button9"
         style="@style/estiloBotonRedondo"
-        android:text="@string/_9"
-        app:layout_constraintBottom_toTopOf="@id/button6"
 
+        android:text="@string/_9"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@id/buttonX"
-        app:layout_constraintStart_toEndOf="@id/button8"
-        app:layout_constraintTop_toBottomOf="@id/buttonBorrar1Numero"
-        app:layout_constraintWidth_percent="0.25" />
+        app:layout_constraintWidth_percent="0.25"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="320dp" />
 
     <Button
         android:id="@+id/button8"
@@ -148,10 +146,9 @@
         style="@style/estiloBotonRedondo"
 
         android:text="@string/_6"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@id/buttonSuma"
-        app:layout_constraintStart_toEndOf="@id/button5"
+        app:layout_constraintEnd_toEndOf="@+id/button9"
+        app:layout_constraintStart_toStartOf="@+id/button9"
         app:layout_constraintTop_toBottomOf="@+id/button9"
         app:layout_constraintWidth_percent="0.25" />
 
