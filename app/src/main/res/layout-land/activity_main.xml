@@ -13,226 +13,223 @@
 
     <Button
         android:id="@+id/button9"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="16dp"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginTop="44dp"
         android:text="@string/_9"
-        android:textSize="20pt"
-        app:layout_constraintDimensionRatio="1:0.5"
+        android:textSize="10pt"
+        app:layout_constraintDimensionRatio="1:0.4"
         app:layout_constraintEnd_toEndOf="@+id/resultado"
         app:layout_constraintStart_toStartOf="@+id/resultado"
         app:layout_constraintTop_toBottomOf="@+id/resultado"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/button6"
-        style="@style/estiloBotonRedondo"
-
-        android:layout_marginTop="4dp"
-        android:text="@string/_6"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/button9"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button9"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/button7"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="16dp"
-        android:text="@string/_7"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/resultado"
-        app:layout_constraintHorizontal_bias="0.022"
-        app:layout_constraintStart_toStartOf="@+id/resultado"
-        app:layout_constraintTop_toBottomOf="@+id/resultado"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/buttonEq"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginEnd="36dp"
-        android:text="@string/igual"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/buttonComma"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonComma"
-        app:layout_constraintTop_toBottomOf="@+id/buttonComma"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/button1"
-        style="@style/estiloBotonRedondo"
-        android:layout_height="0dp"
-        android:layout_marginTop="4dp"
-        android:text="@string/_1"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/button2"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="4dp"
-        android:text="@string/_2"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/button5"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="4dp"
-        android:text="@string/_5"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/button8"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button8"
-        app:layout_constraintTop_toBottomOf="@+id/button8"
-        app:layout_constraintWidth_percent="0.19" />
+        app:layout_constraintWidth_percent="0.18" />
 
     <Button
         android:id="@+id/buttonBorrar1Numero"
-        style="@style/estiloBotonRedondo"
+        style="@style/estiloBotonRedondoLand"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="44dp"
         android:text="@string/c"
-        app:layout_constraintDimensionRatio="1:0.5"
+        app:layout_constraintDimensionRatio="1:0.4"
         app:layout_constraintEnd_toEndOf="@+id/resultado"
         app:layout_constraintHorizontal_bias="0.738"
         app:layout_constraintStart_toStartOf="@+id/resultado"
         app:layout_constraintTop_toBottomOf="@+id/resultado"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/buttonComma"
-        style="@style/estiloBotonRedondo"
-        android:layout_height="0dp"
-        android:layout_marginTop="4dp"
-        android:text="@string/coma"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/buttonDEL"
-        app:layout_constraintStart_toStartOf="@+id/buttonDEL"
-        app:layout_constraintTop_toBottomOf="@+id/buttonDEL"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/buttonX"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="4dp"
-        android:text="@string/x"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/buttonDiv"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonDiv"
-        app:layout_constraintTop_toBottomOf="@+id/buttonDiv"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/buttonDEL"
-        style="@style/estiloBotonRedondo"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="4dp"
-        android:text="@string/del"
-        android:textColorLink="#7C0000"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/buttonBorrar1Numero"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonBorrar1Numero"
-        app:layout_constraintTop_toBottomOf="@+id/buttonBorrar1Numero"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/buttonSuma"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="4dp"
-        android:text="@string/mas"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/buttonX"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonX"
-        app:layout_constraintTop_toBottomOf="@+id/buttonX"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/buttonDiv"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="16dp"
-        android:text="@string/division"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/resultado"
-        app:layout_constraintHorizontal_bias="0.979"
-        app:layout_constraintStart_toStartOf="@+id/resultado"
-        app:layout_constraintTop_toBottomOf="@+id/resultado"
-        app:layout_constraintWidth_percent="0.19" />
-
-    <Button
-        android:id="@+id/buttonResta"
-        style="@style/estiloBotonRedondo"
-        android:text="@string/menos"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/buttonSuma"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonSuma"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSuma"
-        app:layout_constraintWidth_percent="0.19" />
+        app:layout_constraintWidth_percent="0.18" />
 
     <Button
         android:id="@+id/button8"
-        style="@style/estiloBotonRedondo"
-
-        android:layout_marginTop="16dp"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginTop="44dp"
         android:text="@string/_8"
-        app:layout_constraintDimensionRatio="1:0.5"
+        app:layout_constraintDimensionRatio="1:0.4"
         app:layout_constraintEnd_toEndOf="@+id/resultado"
-        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="@+id/resultado"
         app:layout_constraintTop_toBottomOf="@+id/resultado"
-        app:layout_constraintWidth_percent="0.19" />
+        app:layout_constraintWidth_percent="0.18" />
 
     <Button
-        android:id="@+id/button3"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="4dp"
-        android:text="@string/_3"
-        app:layout_constraintDimensionRatio="1:0.5"
-        app:layout_constraintEnd_toEndOf="@+id/button6"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button6"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:layout_constraintWidth_percent="0.19" />
+        android:id="@+id/buttonX"
+        style="@style/estiloBotonRedondoLand"
+        android:text="@string/x"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDiv"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonDiv"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDiv"
+        app:layout_constraintWidth_percent="0.18" />
 
     <Button
-        android:id="@+id/button0"
-        style="@style/estiloBotonRedondo"
-        android:text="@string/_0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="1:0.170"
-        app:layout_constraintEnd_toEndOf="@+id/button1"
+        android:id="@+id/button5"
+        style="@style/estiloBotonRedondoLand"
+        android:text="@string/_5"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintWidth_percent="0.57" />
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintWidth_percent="0.18" />
 
     <Button
         android:id="@+id/button4"
-        style="@style/estiloBotonRedondo"
-        android:layout_marginTop="4dp"
+        style="@style/estiloBotonRedondoLand"
         android:text="@string/_4"
-        app:layout_constraintDimensionRatio="1:0.5"
+        app:layout_constraintDimensionRatio="1:0.4"
         app:layout_constraintEnd_toEndOf="@+id/button7"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button7"
         app:layout_constraintTop_toBottomOf="@+id/button7"
-        app:layout_constraintWidth_percent="0.19" />
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/buttonComma"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_height="0dp"
+        android:text="@string/coma"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDEL"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonDEL"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDEL"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/estiloBotonRedondoLand"
+        android:text="@string/_3"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/buttonResta"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginBottom="16dp"
+        android:text="@string/menos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSuma"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonSuma"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSuma"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/buttonDEL"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/del"
+        android:textColorLink="#7C0000"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBorrar1Numero"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonBorrar1Numero"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBorrar1Numero"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginTop="44dp"
+        android:text="@string/division"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/resultado"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="@+id/resultado"
+        app:layout_constraintTop_toBottomOf="@+id/resultado"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/button0"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:0.128"
+        app:layout_constraintEnd_toEndOf="@+id/button1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintWidth_percent="0.565" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/estiloBotonRedondoLand"
+        android:text="@string/_2"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginTop="44dp"
+        android:text="@string/_7"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/resultado"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="@+id/resultado"
+        app:layout_constraintTop_toBottomOf="@+id/resultado"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_height="0dp"
+        android:text="@string/_1"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/buttonSuma"
+        style="@style/estiloBotonRedondoLand"
+        android:text="@string/mas"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/buttonX"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonX"
+        app:layout_constraintTop_toBottomOf="@+id/buttonX"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/buttonEq"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/igual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/buttonComma"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonComma"
+        app:layout_constraintTop_toBottomOf="@+id/buttonComma"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintWidth_percent="0.18" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/estiloBotonRedondoLand"
+        android:layout_marginTop="8dp"
+        android:text="@string/_6"
+        app:layout_constraintDimensionRatio="1:0.4"
+        app:layout_constraintEnd_toEndOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintWidth_percent="0.18" />
 
     <TextView
         android:id="@+id/entranNumeros"

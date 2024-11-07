@@ -36,8 +36,7 @@
         style="@style/estiloBotonRedondo"
         android:text="@string/igual"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="@+id/buttonResta"
         app:layout_constraintStart_toStartOf="@+id/buttonResta"
         app:layout_constraintTop_toBottomOf="@+id/buttonResta"
         app:layout_constraintWidth_percent="0.25" />
@@ -88,8 +87,8 @@
         android:layout_marginTop="16dp"
         android:text="@string/c"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/buttonDiv"
-        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintEnd_toEndOf="@+id/entranNumeros"
+        app:layout_constraintHorizontal_bias="0.671"
         app:layout_constraintStart_toStartOf="@+id/entranNumeros"
         app:layout_constraintTop_toBottomOf="@+id/entranNumeros"
         app:layout_constraintWidth_percent="0.25" />
@@ -100,7 +99,7 @@
         android:text="@string/_9"
         android:textSize="20pt"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/buttonDiv"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBorrar1Numero"
         app:layout_constraintStart_toStartOf="@+id/buttonBorrar1Numero"
         app:layout_constraintTop_toBottomOf="@+id/buttonBorrar1Numero"
         app:layout_constraintWidth_percent="0.25" />
